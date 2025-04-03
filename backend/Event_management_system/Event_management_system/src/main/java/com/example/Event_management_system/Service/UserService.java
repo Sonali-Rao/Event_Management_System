@@ -1,26 +1,6 @@
 package com.example.Event_management_system.Service;
 
-//import com.example.Event_management_system.Model.User;
-//import com.example.Event_management_system.Repository.UserRepository;
-//import org.springframework.security.core.userdetails.UserDetails;
-//import org.springframework.security.core.userdetails.UserDetailsService;
-//import org.springframework.security.core.userdetails.UsernameNotFoundException;
-//import org.springframework.stereotype.Service;
-//
-//@Service
-//public class UserService implements UserDetailsService {
-//    private final UserRepository userRepository;
-//
-//    public UserService(UserRepository userRepository) {
-//        this.userRepository = userRepository;
-//    }
-//
-//    @Override
-//    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-//        return userRepository.findByEmail(email)
-//                .orElseThrow(() -> new UsernameNotFoundException("User not found"));
-//    }
-//}
+
 
 import com.example.Event_management_system.Model.User;
 import com.example.Event_management_system.Repository.UserRepository;
